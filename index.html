@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fa">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>دانلود نرم‌افزارها</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;700&display=swap');
+
+    body {
+      font-family: 'Vazirmatn', sans-serif;
+      margin: 0;
+      background: linear-gradient(to right, #74ebd5, #ACB6E5);
+      color: #333;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 20px;
+      background: rgba(255, 255, 255, 0.2);
+      backdrop-filter: blur(10px);
+      font-size: 2.5em;
+      font-weight: 700;
+      color: #fff;
+      text-shadow: 1px 1px 5px rgba(0,0,0,0.3);
+    }
+
+    .container {
+      max-width: 900px;
+      margin: 30px auto;
+      background: rgba(255, 255, 255, 0.9);
+      border-radius: 15px;
+      padding: 30px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .file-item {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 20px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      background: #f7f7f7;
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .file-item:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+    }
+
+    .file-name {
+      font-size: 1.2em;
+      font-weight: 500;
+    }
+
+    .download-btn {
+      background: #4CAF50;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 8px;
+      text-decoration: none;
+      font-weight: 600;
+      transition: background 0.3s, transform 0.2s;
+    }
+
+    .download-btn:hover {
+      background: #45a049;
+      transform: scale(1.05);
+    }
+
+    footer {
+      text-align: center;
+      padding: 30px 10px;
+      color: #fff;
+      font-weight: 500;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.3);
+    }
+
+    @media (max-width: 600px) {
+      .file-item {
+        flex-direction: column;
+        align-items: flex-start;
+      }
+
+      .download-btn {
+        margin-top: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+<header>دانلود نرم‌افزارها و پروژه‌ها</header>
+
+<div class="container">
+  <div class="file-item">
+    <span class="file-name">نرم‌افزار اول</span>
+    <a href="files/browser.zip" download class="download-btn">دانلود</a>
+</div>
+
+<footer>تمامی حقوق محفوظ است © 2025</footer>
+
+</body>
+</html>
+
